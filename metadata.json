@@ -1,0 +1,6 @@
+{
+  "name": "Tokyo Beatmatch: Anime Disco DJ Academy & Pro Decks",
+  "description": "Learn to DJ from beginner to expert with interactive low-latency decks, high-contrast waveforms, AI auto-mixing, MIDI mapping, copyright-free anime disco library, and progressive awards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="discoGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff2a85" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#090a10" />
+    </radialGradient>
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff" />
+      <stop offset="100%" stop-color="#ff2a85" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="#090a10" />
+  <!-- Turntable Platter Outer -->
+  <circle cx="256" cy="256" r="210" fill="#12131c" stroke="#25283d" stroke-width="6" />
+  <circle cx="256" cy="256" r="185" fill="#0e0f17" stroke="#1d2033" stroke-width="2" />
+  <!-- Vinyl Grooves -->
+  <circle cx="256" cy="256" r="160" fill="none" stroke="#25283d" stroke-width="2" stroke-dasharray="10 4" />
+  <circle cx="256" cy="256" r="135" fill="none" stroke="#1f2235" stroke-width="2" />
+  <circle cx="256" cy="256" r="110" fill="none" stroke="#25283d" stroke-width="1.5" stroke-dasharray="6 3" />
+  <!-- Center Anime Disco Label -->
+  <circle cx="256" cy="256" r="75" fill="url(#discoGrad)" />
+  <circle cx="256" cy="256" r="24" fill="#090a10" stroke="#00f0ff" stroke-width="4" />
+  <!-- Stylized Tonearm -->
+  <path d="M410 110 L380 230 L320 280" fill="none" stroke="url(#neonCyan)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="410" cy="110" r="22" fill="#25283d" stroke="#00f0ff" stroke-width="4" />
+  <rect x="306" y="272" width="28" height="16" rx="4" transform="rotate(-35 320 280)" fill="#ff2a85" />
+  <!-- Kanji / Disco accents -->
+  <text x="256" y="235" fill="#ffffff" font-family="sans-serif" font-weight="900" font-size="20" text-anchor="middle" letter-spacing="4">TOKYO</text>
+  <text x="256" y="295" fill="#00f0ff" font-family="sans-serif" font-weight="700" font-size="14" text-anchor="middle" letter-spacing="3">BEATMATCH</text>
+</svg>

@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: #090a10;
+    color: #f1f5f9;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+}
+
+.font-mono {
+  font-family: 'Space Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom DJ hardware glow and jogwheel styling */
+.disco-neon-pink {
+  box-shadow: 0 0 20px rgba(255, 42, 133, 0.45);
+}
+
+.disco-neon-cyan {
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.45);
+}
+
+.disco-neon-amber {
+  box-shadow: 0 0 20px rgba(255, 184, 0, 0.45);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #090a10;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f2235;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ff2a85;
+}
